@@ -207,13 +207,12 @@ letter-spacing: 0.02em;
 /* team section */
 
 .team {
-    padding: 120px 0;
+ padding: 120px 0;
 }
 
 .team-container {
 background: #F4F4FD;
- padding-bottom: 120px;
- padding-top: 120px;
+
 }
 
 .team-title {
@@ -233,9 +232,10 @@ gap: 24px;
 }
 
 .team-item 
-{ background-color: #FFFFFF;
-flex-basis: calc((100% - 3 * 24px) / 4);
+{ 
+background-color: #FFFFFF;
 border-radius: 0px 0px 4px 4px;
+flex-basis: calc((100% - 3 * 24) / 4);
 margin-right: 24px;
 }
 
