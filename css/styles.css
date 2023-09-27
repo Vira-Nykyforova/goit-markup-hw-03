@@ -81,6 +81,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+display: block;
 padding: 24px 0;
 }
 
@@ -278,9 +279,6 @@ margin-bottom: 72px;
 }
 
 .portfolio-item {
-padding-bottom: 32px;
-padding-left: 16px;
-flex-direction: column;
 width: calc((100% - 24px * 2) / 3); }
 
 .portfolio-text-container {
@@ -325,7 +323,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 display: inline-block;
 margin-bottom: 16px;
-max-width: 71px;
 }
 
 .footer-logo-color {
